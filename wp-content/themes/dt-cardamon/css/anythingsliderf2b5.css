@@ -1,0 +1,135 @@
+/*
+	AnythingSlider v1.7+ Default (base) theme
+	By Chris Coyier: http://css-tricks.com
+	with major improvements by Doug Neiner: http://pixelgraphics.us/
+	based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+/*****************************
+  SET DEFAULT DIMENSIONS HERE
+ *****************************/
+/* change the ID to match your slider */
+#slider {
+	
+	list-style: none;
+	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
+
+}
+/* Opera width restriction */
+.anythingBase { max-width: 32766px; overflow:hidden; height:100%; }
+
+/***********************
+  COMMON SLIDER STYLING
+ ***********************/
+/* Overall Wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+	/*overflow:hidden;*/
+	display: block;
+	margin: 0 0 0 0px;
+	position: relative;
+	padding: 0 0px 0px 0px;
+}
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/* anythingSlider base (original element) */
+.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+/* all panels inside the slider */
+.anythingBase .panel {
+	background: none !important;
+	overflow: hidden !important;
+	float: left;
+	padding: 0 !important;
+	margin: 0;
+	position:relative;
+}
+.panel .html-caption {
+	position:absolute;
+	left:0;
+	bottom:5px;
+	padding:10px 18px 0;
+	width:95%;
+	text-shadow:#000 1px 1px 0;
+	color:#F2F2F2;
+	display:none;
+}
+	.panel .html-caption p {
+		overflow:hidden;
+	}
+.anythingBase .panel.vertical {
+	float: none;
+}
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+	top: 50%;
+	position: absolute;
+	display: block;
+}
+div.anythingSlider .arrow a {
+	height:30px;
+	width:30px;
+	position:absolute;
+}
+/* hide text, target the span so IE7 doesn't text-indent the link */
+div.anythingSlider .arrow a span { display: block; text-indent: -9999px; }
+/* back arrow */
+div.anythingSlider .back {
+	height:25px;
+	width:16px; 
+	left:10px;
+	background:url("../images/small-arrow-l.png") no-repeat 0 0;
+	margin-top:-12px;
+ }
+.anything-video div.anythingSlider .back {
+	 left:-30px;
+}
+div.anythingSlider .back:hover{ opacity:0.8 }
+/* forward arrow */
+div.anythingSlider .forward { 
+	width:16px;
+	right:12px;
+	background:url("../images/small-arrow-r.png") no-repeat 0 0;
+	height:25px;
+	margin-top:-12px;
+}
+.anything-video div.anythingSlider .forward { 
+	right:-30px;
+}
+
+div.anythingSlider .forward:hover { opacity:0.8 }
+
+/* Navigation Links */
+div.anythingSlider .anythingControls { outline: 0; display: none; }
+div.anythingSlider .anythingControls ul { margin: 0; padding: 0; float: left; }
+div.anythingSlider .anythingControls ul li { display: inline; }
+
+div.anythingSlider .anythingControls ul a:hover {
+	background-image: none;
+}
+/* Navigation size window */
+div.anythingSlider .anythingControls .anythingNavWindow { overflow: hidden; float: left; }
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider.rtl .anythingControls ul a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .anythingControls ul { float: left; }    /* move nav link group to left */
+div.anythingSlider.rtl .anythingWindow {
+	direction: ltr;
+	unicode-bidi: bidi-override;
+}
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* hide cell shading on hover - makes the button appear to come forward */
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover { background-image: none; }

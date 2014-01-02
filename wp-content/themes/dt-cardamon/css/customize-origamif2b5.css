@@ -1,0 +1,280 @@
+
+
+/*	#bg {
+		background:url(../images/origami/bg-header.jpg) repeat-x 0 0;
+	}
+	#home-bg {
+		background:url(../images/origami/home-head.png) no-repeat center 10px;
+	}
+*/
+    /*	#home-bg.carous {
+		background:url(../images/origami/home-head-carousel.png) no-repeat center 100px;
+	}
+*/
+/*	#home-bg.vert {
+		background:url(../images/origami/home-head-vert.png) no-repeat center 40px;
+	}
+*/		#top-bg {
+			height:35px;
+			z-index:100;
+		}
+			/*.right-top a {
+				color:#878a8b;
+			}*/
+			
+
+
+						/*ul#nav > li > a.act, .button.act {
+							color:#7e7e7e;
+						}
+						#nav li div ul li a.act {
+							color:#7e7e7e;
+						}
+						#nav > li div ul li:hover > a {
+							color:#7e7e7e;
+						}*/
+					.soc-cont {						
+							color:#000;
+							text-shadow:none;
+					}
+					
+					.about > *{
+						font-size: 14px;
+					}
+					/*.double-header .first-head{
+						font-size:33px;
+						float:left;
+						line-height:40px;
+					}*/
+
+		.gallery .textwidget.one-fourth {
+			  margin:0px 19px 39px 0px !important;
+		  }
+	    .gallery .textwidget.one-third {
+		    width:303px;
+	    }
+		.gallery .textwidget {
+			margin: 0 17px 18px 0 !important;
+		}
+		#container.full-width .gallery .textwidget {
+			margin-right: 18px !important;
+		}
+		/*#container.full-width .gallery{
+			background:url(../images/origami/dote-line.png) no-repeat 0 top;
+		}*/
+				
+		#container, #aside {
+			z-index:10;
+			position:relative;
+		}
+		
+				p.autor, p.autor a{
+				/*	color:#000;
+					text-shadow:#a7b0b1 1px 1px 0;*/
+					text-decoration:none;
+				}
+				 p.autor a:hover {
+					 text-decoration:underline;
+				}
+				.foot-cont p.autor, .foot-cont p.autor a {
+				/*	color:#fff;
+					text-shadow:#141414 1px 1px 0;*/
+				}
+				.entry-meta .ico-link {
+					color:#121313;
+					text-shadow:#a7b0b1 1px 1px 0;
+				}
+				.entry-meta .ico-link.comments {
+					text-shadow:#F7F6F3 1px 1px 0 !important;
+				}
+				.link {
+					/*color:#000000;*/
+					font-weight:bold;
+				/*	text-shadow:#a7b0b1 1px 1px 0;*/
+				}
+				.blue-date {
+					font-size:10px;
+				}
+				
+				.blockquote-bg {
+					/*text-shadow:#767D7E 1px 1px 0;*/
+				}
+	
+		
+			/*.entry-content, h1.caption, .about-autor, .related-post {		
+				background:url(../images/origami/dot-line.png) repeat-x 0 bottom;
+			}*/
+		/*	.entry-content.cont, #form-holder, .item-blog, .entry-meta {
+				background:url(../images/origami/dot-line.png) repeat-x 0 top;
+			}
+                */
+			
+			/*.gallery {
+				background:url(../images/origami/dot-line-710.png) no-repeat 0 top;
+			}*/		
+			
+			.type-post, .post, ul.categories li, .custom-menu li, .gallery .textwidget.text {
+/*				background:url(../images/origami/type-spread.png) repeat-x 0 top; */
+			}
+			
+		#aside .reviews-t {
+			/*text-shadow:#767d7e 1px 1px 0;
+			color:#fff;*/
+		}
+		  .post a  {
+			  text-decoration:none;
+		  }
+		 
+		  ul.categories li a, .custom-menu li a {
+			/*  color:#fff;*/
+		  }
+		  .goto-post span {
+			  /*color:#000;
+			  text-shadow:#a7b0b1 1px 1px 0;*/
+			  font-size:10px;
+		  }
+		  #slider .text-capt, #slide .text-capt {
+			  background-color:rgba(252,252,252,0.7);
+			  text-shadow:none;
+			/*  color:#333333;*/
+			}
+			 ul.nav-tab li a.current, .price{
+			  /* color:#121313;
+			   text-shadow:#a7b0b1 1px 1px 0;*/
+		   }
+		   ul.nav-tab li:hover a.current {
+			   text-decoration:none;
+			}
+		   .basic a.selected, .toggle a.question.act strong, .autor-head, .comment-meta a, .comment-meta span{
+				/*color:#121313;
+			     text-shadow:#a7b0b1 1px 1px 0;*/
+			}
+			.toggle a.question.act:hover strong {
+				text-decoration:underline;
+			}
+			.widget-info .head, .widget-info .head-capt, .details, .widget-info .hide-me {
+				/*color:#7e7e7e;*/
+				text-shadow:none;
+			}
+			.head, .head-capt, .mid-gray {
+				/*color:#000;
+				text-shadow:#a7b0b1 1px 1px 0;*/
+			}
+			.widget-info {
+				text-shadow:none;
+			}
+			.type-post {
+				/* text-shadow:#a7b0b1 1px 1px 0;*/
+			}
+			.type-post a.comments, .type-post a.likes {
+				/*color:#000;
+				text-shadow:#a7b0b1 1px 1px 0;*/
+			}
+			.type-post a {
+				/*color:#fff;
+				 text-shadow:#767D7E 1px 1px 0;*/
+			}
+			
+		/*	.custom-menu li.act a {
+				color:#121313;
+				 text-shadow:#a7b0b1 1px 1px 0;
+			}*/
+			#container.full-width {
+				/*background:url(../images/origami/dote-line.png) no-repeat 20px 0 */
+			}
+			
+/*		
+			#comments .children .children {
+				background: url("../images/origami/comment-line-4.png") repeat-y 33px 0;
+				margin:0;
+			}
+			#comments .level1{
+				background-image: url("../images/origami/comment-line-3.png");
+				background-repeat: no-repeat;
+			}
+			#comments .level2, #comments .level3, #comments .level4, #comments .level5 {
+				background-image: url("../images/origami/comment-line-3-2.png");
+				background-repeat: no-repeat;
+			}
+			#comments .level1.last, #comments .level2.last, #comments .level3.last, #comments .level4.last, #comments .level5.last {
+				background-image: url("../images/origami/comment-line-5.png");
+			}
+			 #comments .level1.nochildren, #comments .level2.nochildren, #comments .level3.nochildren, #comments .level4.nochildren {
+				background-image: url("../images/origami/comment-line-6.png");
+			}
+			#comments .level1.nochildren {
+				background:none;
+			}
+			#comments .level1.last.nochildren, #comments .level2.last.nochildren, #comments .level3.last.nochildren, #comments .level4.last.nochildren, #comments .level5.last.nochildren {
+				background-image: url("../images/origami/comment-line-7.png");
+			}
+*/
+	.reviews-b {
+		border-right: 12px solid transparent;
+		border-top: 12px solid rgba(255,255,255,0.20);
+		border-left: 0px solid transparent;  
+	}
+	#footer .reviews-b {
+		border-right: 12px solid transparent;
+		border-top: 12px solid rgba(255,255,255,0.17);
+		border-left: 0px solid transparent;
+	}
+/*	.blockquote-bot {
+		border-left: 0 solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 12px solid rgba(255, 255, 255, 0.2);
+	}*/
+		
+		
+/*			#footer .post a {
+				color:#878a8b;
+				text-shadow:#000 1px 1px 0;
+				text-decoration:none;
+			}
+			#footer .goto-post span {
+				  color:#fff;
+				  text-shadow:#141414 1px 1px 0;
+			}
+			#footer .do-clear {
+				color:#eaeaea;
+				text-shadow:#141414 1px 1px 0;
+			}*/
+		
+		
+		
+				.logo-down {
+					   /*float:left;
+					 background:url(../images/origami/logo-down.png) no-repeat 0 0;
+					  width:307px;
+					  height:50px;
+					 margin: -4px 43px 0 45px;*/
+				  }
+	/*	  .blue {
+			  color:#121313;
+			  text-shadow:#a7b0b1 1px 1px 0;
+		  }
+		#form-holder .do-clear {
+			color:#121313;
+			text-shadow:#a7b0b1 1px 1px 0;
+		}*/
+	 
+			.paginator li.act a{
+				color:#7e7e7e;
+			}
+			.navigation .paginator li.dotes {
+/*				background:url(../images/origami/dotes.png) no-repeat 0 bottom; */
+			}
+			/*.header {
+				font-size:20px;
+			}*/
+			
+			.toggle a, .basic a, ul.nav-tab li a {
+				color:#fff;
+			}
+			.full-left a.button {
+				color:#1A1A1A;
+				text-shadow:1px 1px 0 #EEEEEE;
+			}
+			span.tooltip {
+				border-bottom:1px dashed #fff
+			}

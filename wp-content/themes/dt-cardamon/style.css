@@ -1,0 +1,31 @@
+/*
+Theme Name: Cardamon WP
+Theme URI: http://dream-theme.com/
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: Cardamon WP is powerful multipurpose theme that will help you to build practically any site: from big corporate sites with catalog of products to studio sites with portfolio, photo albums and video gallery; business, kids, beauty, medical... tattoo studio. Almost anything that you can imagine!
+Version: 1.1
+License: This WordPress theme is comprised of two parts: (1) The PHP code is licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://codex.wordpress.org/GPL (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://wiki.envato.com/support/legal-terms/licensing-terms/
+License URI: license.txt
+Tags: dream-theme, cardamon, corporate, portfolio, creative, gallery, photo-albums, custom-backgrounds, custom-layouts, slider, slideshow, background-builder, layout-builder, page-templates, shortcodes, customizable, left-sidebar, right-sidebar, multi-columns, fixed-width,  custom-colors, custom-header, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, translation-ready, password-protected, more
+*/
+.bot-info {
+	float: right !important;
+}
+.wpcf7 input,.wpcf7 textarea
+{
+outline: 0;
+border: 1px solid #CCC;
+padding: 5px;}
+
+.wp-caption {}
+.wp-caption {}
+.sticky {}
+.gallery {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
+.alignnone {}
+.wp-caption-text {}
+.gallery-caption {}
