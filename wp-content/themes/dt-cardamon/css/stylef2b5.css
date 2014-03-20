@@ -27,7 +27,9 @@
 12. Widgets
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 */
-
+.menu-item-125 {
+	display: none !important;
+}
 body {
 /*	width: 100%;*/
 	min-width:998px;
